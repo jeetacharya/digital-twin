@@ -25,3 +25,10 @@ Digital Twin for a Medical Device Actuator (Software Simulation)
 6. For ramp input, there was up to 0.4 degrees of error in the final joint angle in the 3 models wrt the final joint angle of the ramp input.
 7. For sinusoidal input, the range of error in the final joint angle for the 3 models wrt the sinusoidal input was -0.4 to +0.5 degrees with the twin model having no error.
 8. The graphs of joint angle vs time for step input, ramp input and sinusoidal input are shown below:
+![plots](https://github.com/jeetacharya/digital-twin/blob/76bb8b33580ec78bec4fad95a5fdb7c8b96cbad8/plots.png)
+
+## How to Run
+1. Prerequisites: Python software
+2. Execution: Navigate to the directory in the Terminal or Command Prompt containing ‘motor.py’ and execute this Python file by typing one of the following depending on the operating system and how Python installations are configured, and then pressing ‘Enter’:
+   * python motor.py
+   * python3 motor.py
